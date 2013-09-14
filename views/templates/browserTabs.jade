@@ -1,0 +1,4 @@
+ul.nav.nav-tabs
+    li(ng-repeat="p in pages", ng-class="{ active: p.id == page.id }")
+        a(ng-click="loadPage(p)") {{ p.title | truncate:15 }} &nbsp;
+        button.close(style="position:absolute; right:10px; top: 10px", aria-hidden="true", ng-click='destroyPage(p)') &times;

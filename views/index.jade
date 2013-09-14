@@ -1,0 +1,11 @@
+extends layout
+
+block header
+    .navbar.navbar-inverse.navbar-fixed-top
+        .navbar-header
+            a.navbar-brand(href='/') Collaborative Virtual Browser
+
+        browser-toolbar
+
+block content
+    div(ng-view).fill

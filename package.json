@@ -1,0 +1,26 @@
+{
+  "name": "VirtualBrowser",
+  "version": "1.0.0",
+  "description": "Example of using PhantomJS with Node, Angular and Socket.io to create a Virtual Browser which may be used by multiple devices collaboratively.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "3.3.x",
+    "jade": "0.34.x",
+    "should": "1.2.x",
+    "phantom": "0.5.x",
+    "socket.io": "0.9.x",
+    "cheerio": "0.12.x"
+  },
+  "devDependencies": {
+    "mocha": "1.12.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "virtual browser",
+    "phantomjs",
+    "angular"
+  ],
+  "author": "Stefano Pongelli"
+}

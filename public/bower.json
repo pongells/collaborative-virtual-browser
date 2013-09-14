@@ -1,0 +1,15 @@
+{
+  "name": "VirtualBrowser",
+  "version": "1.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "PatternConsulting/bower-angular#v1.0.8",
+    "angular-socket-io": "~0.2.0",
+    "bootstrap": "~3.0.0",
+    "jquery": "~2.0.3"
+  }
+}

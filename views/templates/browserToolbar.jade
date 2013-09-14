@@ -1,0 +1,16 @@
+form.navbar-form
+    .col-lg-5(style="padding:0")
+        .input-group
+            span.input-group-addon Page
+            input.form-control(type='text', placeholder='URL', ng-model="page.url")
+            span.input-group-btn
+                button.btn.btn-default(type='submit', ng-click="createPage()") Open
+    
+    .col-lg-1
+        .btn-group
+            button.btn.btn-default(type='button', ng-click="reload()") Reload
+
+    .col-lg-2
+        .btn-group
+            button.btn.btn-default(type='button', ng-click="goBack()") Back
+            button.btn.btn-default(type='button', ng-click="goForward()") Forward
