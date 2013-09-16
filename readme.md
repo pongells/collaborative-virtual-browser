@@ -6,6 +6,8 @@ This is an extract from my Master Thesis at ETHZ (GlobIS): **An infrastructure f
 
 ## Installation
 
+Install PhantomJS and add the runnable to the PATH env. variable (i.e. typing `phantomjs` in a terminal should start PhantomJS).
+
 Use `package.json` (the usual `npm install` in the main folder) to install the Node modules. 
 
 Go into the `public` folder and use `bower.json` (the usual `bowser install`) to install the client dependencies.
