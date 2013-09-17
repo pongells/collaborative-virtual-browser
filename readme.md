@@ -18,13 +18,15 @@ Pages are open inside a virtual browser (PhantomJS) which simply put is like a r
 
 Once open, the page DOM is extracted, modified and sent to the interested clients. Since we are using Socket.io for communication, users interested in a page join the Socket Room called `pageId`.
 
-Events on the client (click, edit, submit) are sent to the server, which replays them inside the virtual browser and sends the result back.
+Events on the client (click, change, submit) are sent to the server, which replays them inside the virtual browser and then sends the result back.
 
 You can see it as a remote desktop kind of application, but with js and html pages.
 
 
 ##Note
 Disable logging if it gets slow. I am printing a shitload of stuff. Each time a page changes or it finishes loading resources, the whole page is sent to the registered clients.
+
+A batter way to do this would be to use MutationObserver (or some other trick) and only send updates instead of the whole document.
 
 
 ## Tools
