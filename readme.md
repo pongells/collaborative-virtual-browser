@@ -10,7 +10,7 @@ Install PhantomJS and add the runnable to the PATH env. variable (i.e. typing `p
 
 Use `package.json` (the usual `npm install` in the main folder) to install the Node modules. 
 
-Go into the `public` folder and use `bower.json` (the usual `bowser install`) to install the client dependencies.
+Go into the `public` folder and use `bower.json` (the usual `bower install`) to install the client dependencies.
 
 ## How does it work?
 
